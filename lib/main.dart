@@ -7,10 +7,10 @@ void main() {
 }
 
 class ItBank extends StatelessWidget {
-const ItBank({ Key? key }) : super(key: key);
+  const ItBank({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'ItBank',

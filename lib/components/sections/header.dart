@@ -17,7 +17,7 @@ class Header extends StatelessWidget {
         borderRadius: BorderRadius.vertical(bottom: Radius.circular(10)),
       ),
       child: Padding(
-        padding: EdgeInsets.fromLTRB(16.0, 80.0, 16.0, 16.0),
+        padding: const EdgeInsets.fromLTRB(16.0, 80.0, 16.0, 16.0),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
@@ -35,16 +35,14 @@ class Header extends StatelessWidget {
                     ],
                   ),
                 ),
-                Text(
+                const Text(
                   'Balanço disponível',
-                  
                 ),
               ],
             ),
-            Icon(
+            const Icon(
               Icons.account_circle,
               size: 42,
-              //color: Colors.white,
             ),
           ],
         ),
